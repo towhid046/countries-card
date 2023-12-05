@@ -1,0 +1,117 @@
+/* variables=========================================*/
+:root{
+    /* / colors / */
+    --primary-color:#F68822;
+    --secondary-color: #1E1E1E;
+    --text-color:#fff;
+    --bg-color-1: teal;
+    --bg-color-2:gray;
+    --accent-color: rgb(27, 66, 138);
+
+    /* / fonts / */
+    --fs-lg: 3rem;
+    --fs-md:2rem;
+    --fs-sm:1.2rem;
+
+    --fw-bold:700;
+    --fw-semi-bold:600;
+    --fw-medium:500;
+    --fw-regular:400;
+    --fw-light:300;
+
+    --section-padding: 3rem 0;
+
+}
+
+/* remove default padding, margin, boxsizing=================== */
+*,
+*::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Add accessible line-height & Improve text rendering ========*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.7;
+  text-rendering: optimizeSpeed;
+}
+
+/* Improve media defaults ========*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* Remove built-in form typography styles ========*/
+input,
+button,
+textarea,
+select,
+a {
+  font: inherit;
+  color: inherit;
+}
+button{
+  border: none;
+  outline: none;
+}
+/* / ========== Reset a & span  & ul & li ========== / */
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+span{
+  display: inline-block;
+}
+
+ul
+{
+  list-style: none;
+}
+
+/* Avoid text overflows ========*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* Flex and Grid Utilities ========*/
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}

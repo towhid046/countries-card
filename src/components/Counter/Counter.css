@@ -1,0 +1,28 @@
+.counter_heading{
+    text-align: center;
+    background-color: rgb(68, 172, 156);
+    color: #fff;
+    padding: 10px 0;
+}
+.counter_display{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+.counter_btn{
+    padding: 4px 15px;
+    border: none;
+    outline: none;
+    background-color: #010101;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 200px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 20px;
+}

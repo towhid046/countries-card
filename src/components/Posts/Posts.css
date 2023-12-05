@@ -1,0 +1,28 @@
+.posts_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 15px;
+    max-width: 1220px;
+    margin: 30px auto;
+}
+.post_con_header{
+    padding: 0 10px;
+    text-align: center;
+    background-color: rgb(68, 172, 156);
+}
+@media (max-width: 992px) {
+    .posts_container{
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 840px) {
+    .posts_container{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 567px) {
+    .posts_container{
+    grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,30 @@
+.countries_heading{
+    text-align: center;
+    background-color: rgb(68, 172, 156);
+    color: #fff;
+    padding: 10px;
+}
+.countries_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1220px;
+    margin:0 auto;
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width: 992px) {
+    .countries_container{
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 840px) {
+    .countries_container{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 567px) {
+    .countries_container{
+    grid-template-columns: auto;
+    }
+}
